@@ -838,9 +838,65 @@ a.hover-text-main-golden:hover {
 	margin-bottom: 70px;
 }
 
+/* ==================================================================== */
+
 .mb-60 {
-	margin-bottom: 60px;
+	margin-bottom: 30px;     /*changed from 60px to 30 px*/
 }
+
+
+.learn-more-container {
+	display: flex;
+	justify-content: flex-end;  /* pushes it to the right */
+	margin-top: 10px;
+  }
+  
+  .learn-more-link {
+	font-size: 18px;
+	font-weight: 500;
+	color: #0070f3;
+	text-decoration: none;
+	transition: color 0.3s ease;
+  }
+  
+  .learn-more-link:hover {
+	color: #0059c1;
+	text-decoration: underline;
+  }
+
+
+  .box-icon {
+	padding: 15px 20px;   /* reduce inner spacing */
+	min-height: auto;     /* remove any fixed min-height if set */
+  }
+  
+  /* shrink icon size */
+  .box-icon .icon i {
+	font-size: 32px;  /* was probably 50–60px */
+	margin-bottom: 10px;
+  }
+  
+  /* shrink title spacing */
+  .box-icon .title {
+	font-size: 18px;
+	margin: 8px 0;  /* tighter */
+  }
+  
+  /* shrink text */
+  .box-icon .text {
+	font-size: 14px;
+	line-height: 1.4;
+	margin-bottom: 8px;
+  }
+  
+  /* shrink "Read More" spacing */
+  .box-icon .tf-btn-readmore {
+	font-size: 14px;
+	margin-top: 5px;
+  }
+  
+/* =============================================================================   */
+  
 
 .mb-50 {
 	margin-bottom: 50px;
@@ -2219,9 +2275,50 @@ a.hover-text-main-golden:hover {
 }
 
 .tf-footer.style-2 {
-	padding-top: 80px;
+	padding-top: 10px;      /* changed from 80px to 10px */
 	background-color: var(--Main-black);
 }
+
+
+/* =============================== */
+
+/* newly added */
+
+.footer-address {
+	font-family: "Manrope", sans-serif;
+	margin-top: 15px;
+	color: #fff;
+	font-size: 24px;
+	line-height: 1.6;
+	text-align: left;   /* makes it align left */
+  }
+  .footer-address p {        
+	margin: 4px 0;
+  }
+
+  .footer-column {
+	flex: 1;
+	padding: 0 15px;
+	text-align: left; /* keeps Quick Links + Contact Info aligned left */
+	font-family: "Manrope", sans-serif;
+	/* color: #fff; */
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 33px;
+	margin-bottom: 20px;
+	color:var(--Text-2);
+
+  }
+
+  .tf-footer.style-2 .footer-inner .footer-title {
+	font-family: "Manrope", sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 33px;
+	margin-bottom: 20px;
+}
+/* =============================================   */
+
 
 .tf-footer.style-2 .footer-top {
 	padding-bottom: 80px;
@@ -2282,7 +2379,7 @@ a.hover-text-main-golden:hover {
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
-	gap: 120px;
+	gap: 48px;     /*changed from 120px to 48px*/
 }
 
 .tf-footer.style-2 .inner-right {
@@ -9653,7 +9750,7 @@ a.mapboxgl-ctrl-logo {
 }
 
 .tf-spacing-3 {
-	padding-top: 0px;
+	padding-top: 125px;       /*Changed from 0px to 125px*/
 	padding-bottom: 130px;
 }
 
@@ -13033,10 +13130,77 @@ a.mapboxgl-ctrl-logo {
 	}
 
 	.page-title-home-1 .content .s-title {
-		font-size: 60px;
-		line-height: 70px;
+		font-size: 37px;                         /* Changed from 60px to 37px */
+		line-height: 50px;
 		margin-bottom: 50px;
 	}
+
+/* ========================================================================= */
+
+	.consultant-btn {
+		background-color: transparent;   /* Match dark background */
+		color: #ffffff;                 /* White text */
+		font-size: 16px;
+		font-weight: 500;
+		padding: 10px 22px;
+		border: 2px solid #ffffff;      /* White outline */
+		border-radius: 8px;
+		cursor: pointer;
+		transition: all 0.3s ease;
+	  }
+	  
+	  /* Hover effect */
+	  .consultant-btn:hover {
+		background-color: #ffffff;      /* Fill with white */
+		color: #1a1a1a;                /* Dark text for contrast */
+		transform: scale(1.05);
+	  }
+	  
+	  /* Active effect */
+	  .consultant-btn:active {
+		background-color: #cccccc;
+		color: #000000;
+		transform: scale(0.98);
+	  }
+	  
+	  .button-group {
+		display: flex;
+		gap: 12px; /* space between buttons */
+	  }
+
+	  .broucher-btn {
+		background-color: transparent;   /* Match dark background */
+		color: #ffffff;                 /* White text */
+		font-size: 16px;
+		font-weight: 500;
+		padding: 10px 22px;
+		border: 2px solid #ffffff;      /* White outline */
+		border-radius: 8px;
+		cursor: pointer;
+		transition: all 0.3s ease;
+	  }
+	  
+	  /* Hover effect */
+	  .broucher-btn:hover {
+		background-color: #ffffff;      /* Fill with white */
+		color: #1a1a1a;                /* Dark text for contrast */
+		transform: scale(1.05);
+	  }
+	  
+	  /* Active effect */
+	  .broucher-btn:active {
+		background-color: #cccccc;
+		color: #000000;
+		transform: scale(0.98);
+	  }
+	  
+	  .button-group {
+		display: flex;
+		gap: 12px; /* space between buttons */
+	  }
+
+/* ============================================================================== */
+	  
 
 	.page-title-home-1 .content .line {
 		margin-bottom: 50px;

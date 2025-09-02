@@ -128,38 +128,51 @@ export default function Footer1() {
 											<p className="footer-title footer-title-mobile" onClick={() => handleAccordion2(1)}>Quick Links</p>
 											<ul className="list tf-collapse-content" style={{ display: getDisplayStyle2(1) }}>
 												<li>
-													<Link href="/about-us">About Company</Link>
+													<Link href="/about-us">About</Link>
 												</li>
-												{/* <li>
-													<Link href="/career">Carrier Options</Link>
-												</li> */}
-												{/* <li>
-													<Link href="/service-details">Applications</Link>
-												</li> */}
-												{/* <li>
-													<Link href="/contact">Contact Us</Link>
-												</li> */}
-												{/* <li><Link href="/case-study-01">Case Studies</Link></li> */}
+												<li>
+													<Link href="/career">Services</Link>
+												</li>
+												<li>
+													<Link href="/service-details">Case Studies</Link>
+												</li>
+												<li>
+													<Link href="/contact">Contact</Link>
+												</li>
+												<li><Link href="/case-study-01">Privacy Policy</Link></li>
+												<li><Link href="/case-study-01">Terms & Conditions</Link></li>
 											</ul>
 										</div>
 									</div>
+
+									{/* ✅ Address aligned left like Quick Links */}
+									
+									<div className="footer-column">
+										<p className="footer-title footer-title-desktop">Contact Us</p>
+										<p className="footer-title footer-title-mobile" onClick={() => handleAccordion2(1)}>Quick Links</p>
+										<p>Bisways Consulting Group</p>
+										<p>📍 Chennai, Tamil Nadu</p>
+										<p>📞 +91 99403 44774 </p>
+										<p>📧 contact@bisways.com</p>
+										<p>🌐 www.bisways.com</p>
+									</div>
 									<div className="inner-right">
 										<div className="logo-site">
-											{/* <Link href="/">
+											<Link href="/">
 												<img
 													width="0"
 													height="0"
 													sizes="100vw"
 													style={{ width: "100%", height: "auto" }}
-													id="logo_footer" data-retina="./images/logo/logo@2x.png" src="/images/logo/logo.png" alt="" />
-											</Link> */}
+													id="logo_footer" data-retina="./images/logo/bisways.png" src="/images/logo/bisways.png" alt="" />
+											</Link>
 										</div>
-										{/* <p>
+										<p>
 											Stay up-to-date with the latest trends in digital
 											marketing and receive exclusive <br /> tips and insights by
 											subscribing to our newsletter.
-										</p> */}
-										{/* <form action="#" id="form-sub" className="form-sub style-4">
+										</p>
+										<form action="#" id="form-sub" className="form-sub style-4">
 											<fieldset>
 												<div className="icon">
 													<i className="icon-envelope" />
@@ -170,7 +183,7 @@ export default function Footer1() {
 												Subscribe
 												<i className="icon-chevron-right" />
 											</button>
-										</form> */}
+										</form>
 									</div>
 								</div>
 							</div>

@@ -19,11 +19,11 @@ export default function Section7() {
 							<div className="content text-center mb-70">
 								<p className="s-sub-title mb-17 text-white justify-center">
 									<i className="icon-angles-right moveLeftToRight" />
-									working process
+									WHO WE SERVE
 								</p>
 								<p className="s-title  text-white letter-space-0 text-anime-wave">
-									Putting Our Clients’ Interests Ahead of 
-									<span>Our Own</span>
+								Tailored Solutions. Trusted by Diverse Sectors.
+									{/* <span> Our Own</span> */}
 								</p>
 							</div>
 						</div>
@@ -46,12 +46,20 @@ export default function Section7() {
 						<div className="col-lg-6">
 							<div className="content-right">
 								<p className="text fw-5 fs-20 mb-50">
-									At Bisways Consulting Group, our commitment to prioritizing your interests
+									<ol>
+										<li>➡️ Startups & Founders – from incorporation to investor readiness</li>
+										<li>➡️ SMEs & Enterprises – robust compliance, reporting & strategy</li>
+										<li>➡️ Trusts, Societies & NGOs – governance, funding, and transparency</li>
+										<li>➡️ Educational Institutions – trust compliance, audits, affiliations</li>
+										<li>➡️ Builders & Contractors – GST, project structuring, tax planning</li>
+										<li>➡️ Digital & eCommerce Businesses – advisory, compliance, scale support</li>
+									</ol>
+									{/* At Bisways Consulting Group, our commitment to prioritizing your interests
 									is backed by the exceptional quality of our team. We invest heavily in 
 									recruiting and developing talented professionals, creating an environment
 									that fosters their growth as trusted leaders—ensuring you receive 
 									transparent, integrity-driven service every step of the way.
-									
+									 */}
 								</p>
 								{/* <div className="bot">
 									<div className="counter-wrap style-2">
@@ -167,6 +175,74 @@ export default function Section7() {
 												</ul>
 											</div>
 										</div>
+
+
+
+										<h2 className="accordion-header item-link current" data-tab="tabs-1" onClick={() => handleAccordion(1)}>
+											<button className={isAccordion == 1 ? "accordion-button" : "accordion-button collapsed"} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">
+											Our Core Values 
+											</button>
+										</h2>
+										<div id="collapseOne1" className={isAccordion == 1 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample2">
+											<div className="accordion-body">
+												<ul >
+													<li >
+														<div style={{display:'flex',gap:'10px'}}>
+															<div className="icon">
+															<i className="flaticon-check-mark" />
+														</div>
+														<p>
+														Client-Centric – We offer personalized attention, always.
+														</p>
+														</div>
+													</li>
+													<li >
+														<div style={{display:'flex',gap:'10px'}}>
+															<div className="icon">
+															<i className="flaticon-check-mark" />
+														</div>
+														<p>
+														Multi-Domain Expertise – Finance, legal, tax, tech, CSR.
+														</p>
+														</div>
+													</li>
+													<li >
+														<div style={{display:'flex',gap:'10px'}}>
+															<div className="icon">
+															<i className="flaticon-check-mark" />
+														</div>
+														<p>
+														Ethical & Transparent – Trustworthy advice, always backed by data.
+														</p>
+														</div>
+														
+													</li>
+													<li >
+														<div style={{display:'flex',gap:'10px'}}>
+															<div className="icon">
+															<i className="flaticon-check-mark" />
+														</div>
+														<p>
+														Execution-Ready – We don’t stop at advice. We implement too.
+														</p>
+														</div>
+													</li>
+
+													<li >
+														<div style={{display:'flex',gap:'10px'}}>
+															<div className="icon">
+															<i className="flaticon-check-mark" />
+														</div>
+														<p>
+														Pan-India Network – Active presence in Tamil Nadu, expanding rapidly.
+														</p>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</div>
+
+
 									</div>
 									<div className="accordion-item">
 										<h2 className="accordion-header item-link" data-tab="tabs-2" onClick={() => handleAccordion(2)}>
@@ -176,11 +252,7 @@ export default function Section7() {
 										</h2>
 										<div id="collapseTwo1" className={isAccordion == 2 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent="#accordionExample2">
 											<div className="accordion-body">
-												We start by understanding your business needs and challenges.
-Then we design a customized strategy tailored to your goals.
-Our team implements the solution and sets up key processes.
-Finally, we monitor progress and provide ongoing support.
-
+												We start by understanding your business needs and challenges.Then we design a customized strategy tailored to your goals.Our team implements the solution and sets up key processes.Finally, we monitor progress and provide ongoing support.
 											</div>
 										</div>
 									</div>

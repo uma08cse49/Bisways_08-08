@@ -13,7 +13,7 @@ export default function Section3() {
 							<div className="content">
 								<p className="s-sub-title mb-17">
 									<i className="icon-angles-right moveLeftToRight" />
-									consulting services
+									What We Do
 								</p>
 								<p className="s-title mb-70 text-anime-wave-right">
 									The Quality Consulting Service to grow your business <span>and sales</span>
@@ -34,7 +34,7 @@ export default function Section3() {
 									</div>
 								</div>
 								<p className="text mb-30" style={{fontSize:"22px"}}>
-									Bisways has helped tens of businesses get their Business registered across India, with ground support with local incorporation experts in India”
+								We offer practical, tailor-made solutions designed to support modern businesses, non-profits, and institutions across every stage of growth.
 								</p>
 								<ul className="benefit-list style-3">
 									<li>
@@ -80,7 +80,19 @@ export default function Section3() {
 										All
 										Services <i className="icon-chevron-right" /></Link>
 								</div> */}
-							</div>
+
+							{/* <div className="button-group">
+								<button class="consultant-btn">Download our Service Broucher</button>
+							</div> */}
+
+							<div className="learn-more-container">
+									  {/* Learn More Button/Link */}
+									  <a className="learn-more-btn">
+									  ⬇ Download our Broucher 
+										</a>
+									</div>
+							
+						</div>
 						</div>
 						<div className="col-lg-5 offset-lg-1">
 							<div className="box-icon default tf-hover-icon mb-20 wow fadeInUp" data-wow-delay="0s">
@@ -88,10 +100,10 @@ export default function Section3() {
 									<i className="flaticon-data-management" />
 								</div>
 								<Link href="/#" className="title fw-7">
-									Business Startup Consulting
+								 Virtual CFO Services
 								</Link>
 								<p className="text">
-									We, at Bisways Consulting, turn your business idea into reality by providing expert guidance on startup planning, legal setup, and operational strategies. From launch to growth, we
+								Financial planning, analysis, and decision support
 
 								</p>
 								<Link href="/our-service" className="tf-btn-readmore style-3">
@@ -104,10 +116,10 @@ export default function Section3() {
 									<i className="flaticon-human-resources" />
 								</div>
 								<Link href="/#" className="title fw-7">
-									Accounting & Finance Consulting
+								Business Registration & Compliance
 								</Link>
 								<p className="text">
-									Unlock financial clarity with expert accounting and finance solutions that ensure accuracy, compliance, and growth. From managing books to strategic insights, we optimize your financial journey for lasting success.
+								→ Incorporation, GST, MSME, PAN, DSC, and more
 								</p>
 								<Link href="/our-service" className="tf-btn-readmore style-3">
 									Read More
@@ -119,10 +131,10 @@ export default function Section3() {
 									<i className="flaticon-target-1" />
 								</div>
 								<Link href="/#" className="title fw-7">
-									Secreterial Complaint
+								Statutory Filings & Advisory
 								</Link>
 								<p className="text">
-									Stay compliant and organized with seamless secretarial services that ensure your business meets all legal and regulatory requirements. We handle the paperwork, so you can focus on what matters most—growing your business.
+								  ROC, MCA, tax returns, GST returns, etc.
 								</p>
 								<Link href="/our-service" className="tf-btn-readmore style-3">
 									Read More
@@ -134,21 +146,74 @@ export default function Section3() {
 									<i className="flaticon-return-of-investment" />
 								</div>
 								<Link href="/#" className="title fw-7">
-									TAXATION
+								 Audit & Taxation Services
 								</Link>
 								<p className="text">
-									Simplify your tax journey with expert solutions that ensure compliance, minimize liabilities, and optimize your financial outcomes. We handle the complexities of tax laws, so you can focus on scaling your business.
+								  Year-end audits, TDS, internal controls, IT returns
 								</p>
 								<Link href="/our-service" className="tf-btn-readmore style-3">
 									Read More
 									<i className="icon-chevron-right" />
 								</Link>
 							</div>
+
+							{/* <div className="box-icon default tf-hover-icon mb-20 wow fadeInUp" data-wow-delay="0s">
+								<div className="icon hover-icon-2">
+									<i className="flaticon-target-1" />
+								</div>
+								<Link href="/#" className="title fw-7">
+								NGO, Trust & CSR Consulting
+								</Link>
+								<p className="text">
+								80G/12A registration, DARPAN, CSR-1, FC(R)A
+								</p>
+								<Link href="/our-service" className="tf-btn-readmore style-3">
+									Read More
+									<i className="icon-chevron-right" />
+								</Link>
+							</div> */}
+
+
+							{/* <div className="box-icon default tf-hover-icon mb-20 wow fadeInUp" data-wow-delay="0s">
+								<div className="icon hover-icon-2">
+									<i className="flaticon-target-1" />
+								</div>
+								<Link href="/#" className="title fw-7">
+								Strategic & Digital Advisory
+								</Link>
+								<p className="text">
+								Business structuring, branding, tech enablement
+								</p>
+								<Link href="/our-service" className="tf-btn-readmore style-3">
+									Read More
+									<i className="icon-chevron-right" />
+								</Link>
+							</div> */}
+
+						{/* <div className="box-icon small-box default tf-hover-icon mb-20 wow fadeInUp" data-wow-delay="0s">
+						<div className="icon hover-icon-2">
+							<i className="flaticon-target-1" />
 						</div>
+
+						<Link href="/#" className="title fw-7">
+							Strategic & Digital Advisory
+						</Link>
+
+						<p className="text">
+							Business structuring, branding, tech enablement
+						</p>
+
+						<Link href="/our-service" className="tf-btn-readmore style-3">
+							Read More
+							<i className="icon-chevron-right" />
+						</Link>
+						</div> */}
+
 					</div>
 				</div>
-			</section>
+			</div>
+		</section>
 
-		</>
+	</>
 	)
 }

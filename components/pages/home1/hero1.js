@@ -20,8 +20,8 @@ export default function Hero1() {
 										consulting agency
 									</p>
 									<p className="s-title text-white-yellow mb-40 text-fs-50">
-										A Complete Solution for your <br />
-										<div style={{fontSize:"40px",color:' #ffcd4c',borderRadius:'30px 0px 0px 0px'}}>STARTUP & BUSINESS Development Advisory</div>
+									Strategic Consulting. Trusted Advisory. Seamless Compliance. <br />
+										<div style={{fontSize:"20px",color:' #ffcd4c',borderRadius:'30px 0px 0px 0px'}}>Bisways is your end-to-end business partner — from setting up and scaling your entity, to managing finance, compliance, trust governance, and strategic advisory.</div>
 										{/* <span className="animationtext clip">
 											<TypeAnimation
 												sequence={[
@@ -47,6 +47,11 @@ Our energetic team stays ahead of trends to provide innovative, cost- and time-e
 We help businesses adapt, grow, and lead in an ever-evolving digital landscape.
 
 									</p>
+
+									<div className="button-group">
+										<button class="consultant-btn">Talk to Consultant</button>
+										<button class="consultant-btn">Explore Our Capabilities</button>
+									</div>
 									{/* <div className="bot">
 										<Link href="/our-service" className="tf-btn">
 											Explore Services

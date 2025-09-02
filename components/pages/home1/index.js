@@ -10,17 +10,23 @@ import Section6 from "./section6"
 import Section7 from "./section7"
 import Section8 from "./section8"
 import Section9 from "./section9"
+import Footer1 from "../../layout/footer/Footer1"
+
 export default function Home1() {
 
 	return (
-		<>
-			<Section1 />
+	<>		
 			<Section2 />
 			<Section3 />
+			<Section7 />
+			<Section1 />
+			
+	
+			
 			<Section4 />
 			{/* <Section5 /> */}
 			{/* <Section6 /> */}
-			<Section7 />
+			
 			{/* <Section8 /> */}
 			<br/>
 			<Section9 />
@@ -28,6 +34,7 @@ export default function Home1() {
 			{/* <Section11 /> */}
 			<br/>
 			{/* <Section12 /> */}
+			{/* <Footer1 /> */}
 		</>
 	)
 }

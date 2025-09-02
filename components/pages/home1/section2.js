@@ -25,16 +25,27 @@ export default function Section2() {
 								<div className="content-section">
 									<p className="s-sub-title">
 										<i className="icon-angles-right moveLeftToRight" />
-										about company
+										WHO WE ARE
 									</p>
 									<p className="s-title mb-60 " style={{ fontSize: "45px" }}>
-										Bisways Consulting Group a Firm which started in 2022, registered office located in Korattur and workstation at Nerkundram.
+									A Consulting Partner You Can Trust
 									</p>
 									<p className="mb-60 " style={{ fontSize: "20px" }}>
-										Bisways Consulting Group has an impeccable record of delivering remote services relating to Accounting, Taxation and allied services that are required from the 'business set up' phase to the 'operational' phase to growing and changing businesses in all industries.
+									At Bisways, we bring clarity to complexity. We’re a multi-disciplinary business consulting firm offering a unique blend of financial acumen, regulatory expertise, and technology-driven solutions.
 									</p>
 
-									<ul className="list mb-20">
+									<p className="mb-60 " style={{ fontSize: "20px" }}>
+									Whether you're a founder launching your startup, a CFO managing financial oversight, or a trust managing compliance and governance — we serve as your reliable, long-term partner.
+									</p>
+
+									<div className="learn-more-container">
+									  {/* Learn More Button/Link */}
+									  <a href="/aboutUs" className="learn-more-btn">
+              							Learn More →
+										</a>
+									</div>
+
+									{/* <ul className="list mb-20">
 										<li>
 											<p className="font-main-2">OUR MISSION</p>
 											<p className="text">
@@ -47,7 +58,7 @@ export default function Section2() {
 												We envision a world where businesses soar by focusing on what they do best, while we transform their operations into seamless, compliant, and efficient systems that fuel growth and innovation.
 											</p>
 										</li>
-									</ul>
+									</ul> */}
 								</div>
 							</div>
 							<div className="col-lg-5 offset-lg-1">
